@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <img src="assets/images/logo_web.png" alt="" class="img-fluid">
+            <img style="padding-left:20px; width: 115px;" src="assets/images/Escudo-UBB-cropped.svg" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link" [routerLink]="['/']">Inicio</a>
+                <a class="nav-link" href="#featured">Destacados</a>
+                <a class="nav-link" [routerLink]="['/about']">Acerca de</a>
+                <a class="nav-link" [routerLink]="['/news']">Noticias</a>
+                <a class="nav-link" href="#contact">Contáctanos</a>
+                <!-- <a routerLink="/user-pages/login" class="btn-get-started"
+                    style="background: black !important;border-radius: 8px;color: white;padding-left: 20px;padding-right: 20px!important;">Login</a> -->
+            </div>
+            <div>
+                <a routerLink="/user-pages/login" class="btn-get-started login-btn"
+                    style="background: black !important;border-radius: 8px;color: white;padding-left: 20px;padding-right: 20px!important;">Login</a>
+            </div>
+        </div>
+    </div>
+</nav>  
